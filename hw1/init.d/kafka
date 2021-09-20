@@ -20,7 +20,6 @@ echo "Starting $DAEMON_NAME"
 $DAEMON_PATH/kafka-server-start.sh -daemon /opt/kafka/config/server.properties
 fi
 ;;
-;;
 stop)
 echo "Shutting down $DAEMON_NAME"
 $DAEMON_PATH/kafka-server-stop.sh
